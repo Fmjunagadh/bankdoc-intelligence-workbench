@@ -1,0 +1,6 @@
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Asha R. Rao
+Monthly Salary: INR 75,000
+Employment Start Date: 1 March 2024
+Certificate Date: 1 October 2026

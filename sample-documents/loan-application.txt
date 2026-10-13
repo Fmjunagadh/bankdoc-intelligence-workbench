@@ -1,0 +1,7 @@
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Asha Rao
+Requested Loan: INR 500,000
+Declared Monthly Income: INR 75,000
+Existing Monthly Obligations: INR 12,000
+Application Date: 12 October 2026
