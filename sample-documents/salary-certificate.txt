@@ -4,3 +4,73 @@ Applicant: Asha R. Rao
 Monthly Salary: INR 75,000
 Employment Start Date: 1 March 2024
 Certificate Date: 1 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Usha R. Rao
+Monthly Salary: INR 55,000
+Employment Start Date: 14 March 2024
+Certificate Date: 12 December 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Amit Rao
+Monthly Salary: INR 239,393
+Employment Start Date: 15 April 2024
+Certificate Date: 21 June 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Sunita Verma
+Monthly Salary: INR 199,794
+Employment Start Date: 21 March 2024
+Certificate Date: 10 May 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Asha Malhotra
+Monthly Salary: INR 97,124
+Employment Start Date: 18 May 2024
+Certificate Date: 1 September 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Divya Joshi
+Monthly Salary: INR 117,842
+Employment Start Date: 1 April 2024
+Certificate Date: 21 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Amit Nair
+Monthly Salary: INR 135,165
+Employment Start Date: 19 March 2024
+Certificate Date: 5 July 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Sunita Mehta
+Monthly Salary: INR 209,794
+Employment Start Date: 21 August 2024
+Certificate Date: 16 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Kiran Verma
+Monthly Salary: INR 106,024
+Employment Start Date: 1 March 2024
+Certificate Date: 1 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Pooja Singh
+Monthly Salary: INR 220,682
+Employment Start Date: 19 December 2024
+Certificate Date: 3 November 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Salary Certificate
+Applicant: Vikram Malhotra
+Monthly Salary: INR 236,136
+Employment Start Date: 4 March 2024
+Certificate Date: 29 March 2026

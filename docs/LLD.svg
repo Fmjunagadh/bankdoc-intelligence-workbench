@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 460" width="100%" height="100%">
+  <style>
+    .lifeline { stroke: #adb5bd; stroke-width: 2; stroke-dasharray: 4,4; }
+    .box { fill: #f8f9fa; stroke: #343a40; stroke-width: 1.5; rx: 4; }
+    .text { fill: #212529; font-family: sans-serif; font-size: 11px; font-weight: bold; text-anchor: middle; }
+    .msg { stroke: #1168bd; stroke-width: 1.5; marker-end: url(#arrow3); }
+    .msg-text { fill: #1168bd; font-family: sans-serif; font-size: 10px; text-anchor: middle; font-weight: bold; }
+  </style>
+  <defs>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1168bd"/>
+    </marker>
+  </defs>
+
+  <rect width="950" height="460" fill="#ffffff" rx="10"/>
+  <text x="475" y="25" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#212529">Low-Level Design (LLD) - Document Pipeline Sequence Diagram</text>
+
+  <!-- Lifeline Headers -->
+  <g transform="translate(40, 50)"><rect width="110" height="35" class="box"/><text x="55" y="22" class="text">React Client</text></g>
+  <g transform="translate(200, 50)"><rect width="130" height="35" class="box"/><text x="65" y="22" class="text">Express Server</text></g>
+  <g transform="translate(380, 50)"><rect width="130" height="35" class="box"/><text x="65" y="22" class="text">Doc Processor</text></g>
+  <g transform="translate(560, 50)"><rect width="130" height="35" class="box"/><text x="65" y="22" class="text">Analysis Provider</text></g>
+  <g transform="translate(740, 50)"><rect width="130" height="35" class="box"/><text x="65" y="22" class="text">SQLite DB</text></g>
+
+  <!-- Lifeline Lines -->
+  <line x1="95" y1="85" x2="95" y2="420" class="lifeline"/>
+  <line x1="265" y1="85" x2="265" y2="420" class="lifeline"/>
+  <line x1="445" y1="85" x2="445" y2="420" class="lifeline"/>
+  <line x1="625" y1="85" x2="625" y2="420" class="lifeline"/>
+  <line x1="805" y1="85" x2="805" y2="420" class="lifeline"/>
+
+  <!-- Sequence Arrows -->
+  <line x1="95" y1="120" x2="257" y2="120" class="msg"/>
+  <text x="176" y="112" class="msg-text">POST /api/documents/upload</text>
+
+  <line x1="265" y1="165" x2="797" y2="165" class="msg"/>
+  <text x="531" y="157" class="msg-text">Insert Record (PENDING)</text>
+
+  <line x1="265" y1="220" x2="437" y2="220" class="msg"/>
+  <text x="351" y="212" class="msg-text">processDocument(id)</text>
+
+  <line x1="445" y1="275" x2="617" y2="275" class="msg"/>
+  <text x="531" y="267" class="msg-text">analyzeDocument(rawText)</text>
+
+  <line x1="625" y1="325" x2="453" y2="325" class="msg"/>
+  <text x="539" y="317" class="msg-text">Return JSON &amp; Risk Score</text>
+
+  <line x1="445" y1="370" x2="797" y2="370" class="msg"/>
+  <text x="621" y="362" class="msg-text">Update DB (COMPLETED)</text>
+
+  <line x1="265" y1="410" x2="103" y2="410" class="msg"/>
+  <text x="184" y="402" class="msg-text">Return JSON Dashboard Data</text>
+</svg>

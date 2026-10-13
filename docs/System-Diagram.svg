@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 360" width="100%" height="100%">
+  <style>
+    .box { fill: #1168bd; stroke: #0d3c59; stroke-width: 2; rx: 8; }
+    .person { fill: #08427b; stroke: #052c50; stroke-width: 2; rx: 8; }
+    .ext { fill: #6c757d; stroke: #495057; stroke-width: 2; rx: 8; }
+    .text { fill: #ffffff; font-family: sans-serif; font-size: 14px; text-anchor: middle; font-weight: bold; }
+    .desc { fill: #ffffff; font-family: sans-serif; font-size: 11px; text-anchor: middle; }
+    .line { stroke: #495057; stroke-width: 2; marker-end: url(#arrow); }
+    .label { fill: #212529; font-family: sans-serif; font-size: 11px; text-anchor: middle; font-weight: bold; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#495057"/>
+    </marker>
+  </defs>
+
+  <rect width="850" height="360" fill="#f8f9fa" rx="10"/>
+  <text x="425" y="35" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#212529">C4 System Context Diagram - Bank Document Intelligence Workbench</text>
+
+  <!-- Person -->
+  <g transform="translate(50, 130)">
+    <rect width="160" height="110" class="person"/>
+    <text x="80" y="45" class="text">Bank Loan Officer /</text>
+    <text x="80" y="65" class="text">Analyst</text>
+    <text x="80" y="90" class="desc">[Person]</text>
+  </g>
+
+  <!-- System -->
+  <g transform="translate(320, 120)">
+    <rect width="210" height="130" class="box"/>
+    <text x="105" y="40" class="text">Bank Document</text>
+    <text x="105" y="60" class="text">Intelligence Workbench</text>
+    <text x="105" y="85" class="desc">[Software System]</text>
+    <text x="105" y="105" class="desc">React, Express, SQLite</text>
+  </g>
+
+  <!-- External System -->
+  <g transform="translate(630, 130)">
+    <rect width="170" height="110" class="ext"/>
+    <text x="85" y="45" class="text">Local File System</text>
+    <text x="85" y="65" class="text">&amp; Sample Docs</text>
+    <text x="85" y="90" class="desc">[External System]</text>
+  </g>
+
+  <!-- Connectors -->
+  <line x1="210" y1="185" x2="310" y2="185" class="line"/>
+  <text x="260" y="170" class="label">Uploads PDFs/CSVs</text>
+
+  <line x1="530" y1="185" x2="620" y2="185" class="line"/>
+  <text x="575" y="170" class="label">Reads Files</text>
+</svg>

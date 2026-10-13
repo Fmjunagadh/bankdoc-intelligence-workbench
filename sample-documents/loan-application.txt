@@ -5,3 +5,83 @@ Requested Loan: INR 500,000
 Declared Monthly Income: INR 75,000
 Existing Monthly Obligations: INR 12,000
 Application Date: 12 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Usha Rao
+Requested Loan: INR 500,000
+Declared Monthly Income: INR 75,000
+Existing Monthly Obligations: INR 12,000
+Application Date: 1 April 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Amit Rao
+Requested Loan: INR 1,915,144
+Declared Monthly Income: INR 239,393
+Existing Monthly Obligations: INR 38,595
+Application Date: 11 June 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Sunita Verma
+Requested Loan: INR 1,997,940
+Declared Monthly Income: INR 199,794
+Existing Monthly Obligations: INR 21,566
+Application Date: 22 August 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Asha Malhotra
+Requested Loan: INR 971,240
+Declared Monthly Income: INR 97,124
+Existing Monthly Obligations: INR 15,064
+Application Date: 14 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Divya Joshi
+Requested Loan: INR 707,052
+Declared Monthly Income: INR 117,842
+Existing Monthly Obligations: INR 18,127
+Application Date: 12 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Amit Nair
+Requested Loan: INR 1,081,320
+Declared Monthly Income: INR 135,165
+Existing Monthly Obligations: INR 40,790
+Application Date: 12 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Sunita Mehta
+Requested Loan: INR 1,678,352
+Declared Monthly Income: INR 209,794
+Existing Monthly Obligations: INR 51,260
+Application Date: 12 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Kiran Verma
+Requested Loan: INR 424,096
+Declared Monthly Income: INR 106,024
+Existing Monthly Obligations: INR 20,678
+Application Date: 12 October 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Pooja Singh
+Requested Loan: INR 1,765,456
+Declared Monthly Income: INR 220,682
+Existing Monthly Obligations: INR 60,787
+Application Date: 12 December 2026
+
+SYNTHETIC DEMO DATA — NOT A REAL CUSTOMER
+Document Type: Loan Application
+Applicant Name: Vikram Malhotra
+Requested Loan: INR 1,416,816
+Declared Monthly Income: INR 236,136
+Existing Monthly Obligations: INR 33,259
+Application Date: 12 October 2026

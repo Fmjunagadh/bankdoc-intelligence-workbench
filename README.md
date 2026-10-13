@@ -2,7 +2,13 @@
 
 A time-boxed full-stack demo for reviewing **synthetic banking documents**. It extracts supported facts from each document independently, compares them, and preserves source evidence for every finding. It is a demo, not a credit-decision system.
 
-## Architecture
+## Architecture & Design Documentation
+
+- [Data Architecture](docs/Architecture_Diagram.svg)
+- [System Design](docs/System-Diagram.svg)
+- [High-Level Design (HLD)](docs/HLD.svg)
+- [Low-Level Design (LLD)](docs/LLD.svg)
+
 - `client/`: React + TypeScript + Vite UI.
 - `server/`: Node.js + Express + TypeScript API.
 - SQLite stores document metadata, extracted text and analysis history.
@@ -64,5 +70,17 @@ Add OCR for scanned files, asynchronous processing queues, per-tenant authorizat
 - `sample-documents/salary-certificate.txt`
 - `sample-documents/account-statement.csv`
 
-## AI-tool disclosure
-During submission, list the AI development tools actually used. Review and understand all generated code; explain personally chosen architecture, validation, provenance and mock-analysis decisions. Do not claim an LLM integration that is not present.
+## AI Tools Disclosure & Development Methodology
+
+During the development and engineering of this Bank Document Intelligence Workbench project, AI tools were utilized transparently as collaborative aids to accelerate understanding, design, and documentation:
+
+1. **ChatGPT (Conceptual Understanding & Guidance):** 
+   * Used during the initial research and planning phase to understand multi-document intelligence workflows, data normalization patterns, and structured AI risk-scoring strategies.
+2. **Gemini (Architecture & System Design):** 
+   * Used as a personal AI collaborator to design and format IT-standard system architecture specifications, including C4 Model diagrams, Container High-Level Architecture (HLD), Sequence Low-Level Design (LLD), and Entity-Relationship Data Models (ERDs) as production-grade SVGs.
+
+### Personal Architectural & Implementation Decisions
+While AI tools assisted with high-level conceptualization and visual blueprinting, the actual engineering, implementation, and architectural decisions were executed personally:
+* **Modular Pipeline Architecture:** Personally designed the separation between `documentProcessor.ts` (handling file reading and format parsing) and `analysisProvider.ts` (handling rule-based and structured extraction logic) to maintain loose coupling.
+* **Database & Provenance Design:** Implemented SQLite via `better-sqlite3` (`db.ts`) with strict relational mapping (`DOCUMENTS` and `PROCESSING_LOGS`) to ensure individual document boundaries and provenance are never merged or lost.
+* **Robust TypeScript & Error Handling:** Handled input validation, secure file handling, and fallback error states across the Express backend and React frontend.
